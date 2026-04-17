@@ -5,7 +5,7 @@ import { Plus, ArrowRight, Zap } from "lucide-react";
 const rules = [
   { trigger: "Order Placed", action: "Send WhatsApp Confirmation", active: true },
   { trigger: "Payment Received", action: "Send Receipt via Email", active: true },
-  { trigger: "Order Delivered", action: "Request Feedback SMS", active: false },
+  { trigger: "Order Delivered", action: "Request Feedback SMS", active: true },
   { trigger: "Machine Service Due", action: "Notify Supervisor", active: true },
 ];
 
